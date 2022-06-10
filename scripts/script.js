@@ -1,1 +1,1 @@
-document.getElementById('about-me-pic').style.color = 'red';
+document.getElementById('about-me-pic').style.color = 'brown';
