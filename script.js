@@ -1,1 +1,1 @@
-document.body.getElementById('nav-tabs').style.color = 'brown';
+document.getElementsByTagName("h1").style.backgroundColor = "brown";
