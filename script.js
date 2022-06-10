@@ -1,0 +1,1 @@
+document.body.getElementById('nav-tabs').style.color = 'brown';
