@@ -6,7 +6,7 @@ html {
     font-weight: 200;
 }
 
-nav, #about-me {
+nav, #about-me, #contact {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -31,7 +31,7 @@ nav, #about-me {
     font-size: 0.8em;
 }
 
-#about-me-text {
+#about-me-text, #contact-text {
     align-self: flex-start;
     width: 60%;
     margin-top: 0;
