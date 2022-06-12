@@ -1,5 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Proza+Libre:wght@400&display=swap");
+
 html {
     scroll-behavior: smooth;
+    font-family: "Proza Libre", sans-serif;
+    font-weight: 200;
 }
 
 nav, #about-me {
@@ -24,15 +28,17 @@ nav, #about-me {
 #nav-tabs p {
     display: inline;
     margin-right: 1em;
-}
-
-#about-me {
-    align-content: flex-start;
+    font-size: 0.8em;
 }
 
 #about-me-text {
     align-self: flex-start;
-    width: 55%;
+    width: 60%;
+    margin-top: 0;
+}
+
+#about-me-text p {
+    font-size: 0.8em;
 }
 
 @media only screen and (max-width: 600px) {
@@ -52,7 +58,7 @@ nav, #about-me {
 
 #about-me-pic {
     align-self: flex-start;
-    width: 350px;
+    height: 350px;
     border-radius: 10px;
 }
 
@@ -63,6 +69,7 @@ h2 {
 
 #projects details {
     margin-bottom: 0.5em;
+    font-size: 0.8em;
 }
 
 #projects details summary {
@@ -71,4 +78,17 @@ h2 {
     list-style-type: disclosure-closed;
     cursor: pointer;
     font-weight: bolder;
+}
+
+#skills {
+    align-items: center;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3em;
+}
+
+.skill-logo {
+    width: 5%;
+    margin-right: 2em;
 }
