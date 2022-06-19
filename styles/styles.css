@@ -4,6 +4,7 @@ html {
     scroll-behavior: smooth;
     font-family: "Proza Libre", sans-serif;
     font-weight: 200;
+    width: 100vw;
 }
 
 nav, #about-me, #contact {
@@ -92,3 +93,16 @@ h2 {
     width: 5%;
     margin-right: 2em;
 }
+
+body.dark-mode {
+    background: #121212;
+  }
+  body.dark-mode h1,
+  body.dark-mode h2,
+  body.dark-mode p {
+    color: #eee;
+  }
+  body.dark-mode a {
+    color: #809fff;
+    text-decoration: none;
+  }
