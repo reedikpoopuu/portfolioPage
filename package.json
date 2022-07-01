@@ -1,0 +1,25 @@
+{
+  "name": "220607_portfoliopage",
+  "version": "1.0.0",
+  "description": "test for portfolio page",
+  "main": "script.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reedikpoopuu/portfolioPage.git"
+  },
+  "keywords": [
+    "master"
+  ],
+  "author": "Reedik Poopuu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reedikpoopuu/portfolioPage/issues"
+  },
+  "homepage": "https://github.com/reedikpoopuu/portfolioPage#readme",
+  "devDependencies": {
+    "mocha": "^10.0.0"
+  }
+}
