@@ -62,7 +62,6 @@ describe('Rooster', () => {
 })
 
 /* 
-
 // Implementation code
 // Define a rooster
 Rooster = {};
