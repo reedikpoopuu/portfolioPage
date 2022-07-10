@@ -53,7 +53,7 @@ const renderResponse = (res) => {
 
   //Async...await version
 
-  const getSuggestions = async () => {
+  const getSuggestionsAsync = async () => {
     const wordQuery = inputField.value;
     const endpoint = url + queryParams + wordQuery;
     try {
