@@ -1,5 +1,7 @@
+import { animals } from './animals';
 import React from 'react';
 import ReactDOM from 'react-dom';
+const showBackground = true;
 const displayFact = e => {
   let name = e.target.alt;
   const i = Math.floor(Math.random()*(animals[name].facts.length));
@@ -11,11 +13,11 @@ for (const animal in animals) {
   images.push(<img key={animal} className='animal' alt={animal} src={animals[animal].image} aria-label={animal} role='button' onClick={displayFact} />)
 };
 const background = <img className='background' alt='ocean' src='/images/ocean.jpg'/>;
-const title = '';
+const title = 'Canada';
 const animalFacts = (
   <div>
-  <h1>{!title ? 'Click an animal for a fun fact': title}</h1>
-  {background}
+  <h1>{title || 'Click an animal for a fun fact'}</h1>
+  {showBackground && background}
   <div className='animals'>
   {images}
   </div>
